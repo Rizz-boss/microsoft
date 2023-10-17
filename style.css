@@ -1,0 +1,244 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+nav{
+    display: flex;
+    padding-top: 15px;
+}
+.logo{
+    margin: 0 70px;
+}
+.logo img{
+    width: 105px;
+} 
+.list-items{
+    justify-content: space-between;
+    display: flex;
+    white-space: nowrap;
+}
+.list-items-one{
+    display: flex;
+}
+.list-items-one ul{
+    margin: 0 0px;
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+}
+.list-items-one li{
+    margin: 0 10px;
+}
+.list-items-one  li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+.list-items-one li a:hover{
+    text-decoration: underline;
+}
+.list-items-two{
+    display: flex;
+}
+.list-items-two ul{
+    margin: 0 200px;
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+}
+.list-items-two li{
+    margin: 0 10px;
+}
+.list-items-two li img{
+    width: 30px;
+}
+.section-one{
+    background-image: url(img/Highlight-Bing-AI-Open-Preview_VP4-1399x600.webp );
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    width: 100%;
+}
+.section-one-text{
+    padding-top: 150px;
+    margin: 0 150px;
+}
+.section-one-text h2{
+    font-size: 30px;
+}
+.section-one-text p{
+    padding-top: 10px;
+    word-spacing: 2px;
+}
+.section-one-text button{
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.section-one-text button:hover{
+    background-color: #00589b;
+    box-shadow: 1px 1px 1px 1px solid grey;
+}
+.section-two{
+    display: flex;
+    padding-top: 150px;
+    margin: 0 70px;
+}
+.section-two-one{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-one img{
+    width: 250px;
+}
+.section-two-one h3{
+    padding-top: 5px;
+}
+.section-two-one p{
+    padding-top: 10px;
+}
+.section-two-one h5{
+    padding-top: 10px;
+}
+.section-two-one a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-two-two{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-two img{
+    width: 250px;
+}
+.section-two-two h3{
+    padding-top: 5px;
+}
+.section-two-two p{
+    padding-top: 10px;
+}
+.section-two-two span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-two-three{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-three img{
+    width: 250px;
+}
+.section-two-three h3{
+    padding-top: 5px;
+}
+.section-two-three p{
+    padding-top: 10px;
+}
+.section-two-three span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-two-four{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.section-two-four img{
+    width: 250px;
+}
+.section-two-four h3{
+    padding-top: 5px;
+}
+.section-two-four p{
+    padding-top: 10px;
+}
+.section-two-four span a{
+    text-decoration: none;
+    color: #0067b8;
+    margin-top: 10px;
+}
+.section-three{
+    background-image: url(img/outlook.webp);
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    margin: 10px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.section-three-text{
+    margin: 0 200px;
+    padding-top: 200px;
+}
+.section-three-text p{
+    padding-top: 10px;
+}
+.section-three-text button{
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.section-three-text button:hover{
+    background-color: #00589b;
+    box-shadow: 1px 1px 1px 1px solid grey;
+}
+.section-four{
+    padding-top: 50px;
+    display: flex;
+    margin: 0 50px;
+}
+.section-four img{
+    width: 35px;
+    cursor: pointer;
+}
+.section-four p{
+    padding-top: 7px;
+}
+.footer-list-items{
+    display: flex;
+    list-style: none;
+    padding: 50px 0 0 0;
+    background-color: whitesmoke;
+    margin-top: 100px;
+}
+.footer-list-items ul{
+    margin: 20px;
+}
+.footer-list-items li{
+    list-style: none;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+}
+.footer-list-items li:hover{
+    text-decoration: underline;
+}
+.About{
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+}
+.About:hover{
+    text-decoration: none;
+}
